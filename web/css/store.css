@@ -1,0 +1,37 @@
+#product-section {
+    padding-top: 50px;
+}
+
+
+ul.products img {
+    max-width: 270px;
+    width: 270px;
+}
+
+.products .product {
+    width: 25%;
+}
+
+.product.design:hover a.overlay {
+    background: rgba(0,0,0,.5);
+}
+
+a.shop-now {
+    text-decoration: none;
+    border: 1px solid #b6795f;
+    color: #b6795f;
+    display: inline-block;
+    letter-spacing: 0.56px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+
+a.shop-now:hover {
+    background-color: #b6795f;
+    color: #fff;
+}
